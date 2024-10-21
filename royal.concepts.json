@@ -1,0 +1,97 @@
+{
+   "Q1": {
+      "nodes": {
+         "a": {
+            "inCore": true, 
+            "intentNodes": ["a"]}}, 
+      "edges": [
+         {"male": ["a"]}]}, 
+   "Q2": {
+      "nodes": {
+         "a": {
+            "inCore": true, 
+            "intentNodes": ["a"]}}, 
+      "edges": [
+         {"female": ["a"]}]}, 
+   "Q3": {
+      "nodes": {
+         "a": {
+            "inCore": true, 
+            "intentNodes": ["a", "b", "c"]}, 
+         "b": {
+            "inCore": true, 
+            "intentNodes": ["a", "b", "c"]}, 
+         "c": {
+            "inCore": true, 
+            "intentNodes": ["a", "b", "c"]}, 
+         "d": {
+            "inCore": false, 
+            "intentNodes": ["a", "b", "c", "d"]}, 
+         "e": {
+            "inCore": false, 
+            "intentNodes": ["a", "b", "c", "e"]}}, 
+      "edges": [
+         {"male": ["a"]}, 
+         {"parent": ["a", "b"]}, 
+         {"parent": ["a", "c"]}, 
+         {"parent": ["a", "e"]}, 
+         {"female": ["b"]}, 
+         {"male": ["c"]}, 
+         {"parent": ["d", "b"]}, 
+         {"parent": ["d", "c"]}, 
+         {"parent": ["d", "e"]}]}, 
+   "Q4": {
+      "nodes": {
+         "a": {
+            "inCore": true, 
+            "intentNodes": ["a", "b", "c", "d", "e", "f"]}, 
+         "b": {
+            "inCore": true, 
+            "intentNodes": ["a", "b", "c", "d", "e", "f"]}, 
+         "c": {
+            "inCore": true, 
+            "intentNodes": ["a", "b", "c", "d", "e", "f"]}, 
+         "d": {
+            "inCore": true, 
+            "intentNodes": ["a", "b", "c", "d", "e", "f"]}, 
+         "e": {
+            "inCore": true, 
+            "intentNodes": ["a", "b", "c", "d", "e", "f"]}, 
+         "f": {
+            "inCore": true, 
+            "intentNodes": ["a", "b", "c", "d", "e", "f"]}, 
+         "g": {
+            "inCore": false, 
+            "intentNodes": ["a", "b", "c", "d", "e", "f", "g"]}, 
+         "h": {
+            "inCore": false, 
+            "intentNodes": ["a", "b", "c", "d", "e", "f", "h"]}, 
+         "i": {
+            "inCore": false, 
+            "intentNodes": ["a", "b", "c", "d", "e", "f", "i"]}, 
+         "j": {
+            "inCore": false, 
+            "intentNodes": ["a", "b", "c", "d", "e", "f", "j"]}}, 
+      "edges": [
+         {"female": ["a"]}, 
+         {"parent": ["a", "d"]}, 
+         {"parent": ["a", "f"]}, 
+         {"parent": ["a", "i"]}, 
+         {"male": ["b"]}, 
+         {"parent": ["b", "d"]}, 
+         {"parent": ["b", "f"]}, 
+         {"parent": ["b", "i"]}, 
+         {"female": ["c"]}, 
+         {"female": ["d"]}, 
+         {"male": ["e"]}, 
+         {"male": ["f"]}, 
+         {"parent": ["f", "c"]}, 
+         {"parent": ["f", "e"]}, 
+         {"parent": ["f", "g"]}, 
+         {"male": ["h"]}, 
+         {"parent": ["h", "c"]}, 
+         {"parent": ["h", "e"]}, 
+         {"parent": ["h", "g"]}, 
+         {"parent": ["j", "d"]}, 
+         {"parent": ["j", "f"]}, 
+         {"parent": ["j", "i"]}]}}
